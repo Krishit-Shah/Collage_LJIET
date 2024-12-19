@@ -1,0 +1,16 @@
+        .d-flex
+        .d-inline-flex
+        .flex-row
+        .flex-row-reverse
+        .flex-column
+        .flex-column-reverse
+        .justify-content-start
+        .justify-content-end
+        .justify-content-center
+        .justify-content-between
+        .justify-content-around
+        flex-fill
+        flex-grow
+        flap-wrap
+        flap-nowrap
+        flap-wrap-reverse
