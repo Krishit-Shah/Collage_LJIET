@@ -1,0 +1,27 @@
+<!-- 
+to convert text to upper case by cliking on buutton and covert text to   lower case by cliking on button  on lower  
+-->
+<html>
+
+<head>
+    <script>
+        function upper() {
+            cl = document.getElementsByTagName("p");
+            cl[0].style.textTransform = "upperCase";
+
+        }
+
+        function lower() {
+            cl = document.getElementsByTagName("p");
+            cl[0].style.textTransform = "lowerCase";
+        }
+    </script>
+</head>
+
+<body>
+    <p>Hello Stranger</p>
+    <input type="button" onclick="upper();" value="UPPER" />
+    <input type="button" onclick="lower();" value="LOWER" />
+</body>
+
+</html>

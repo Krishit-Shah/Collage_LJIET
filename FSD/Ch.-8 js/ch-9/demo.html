@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function cls() {
+            cl = document.getElementsByClassName("Same");
+            for (i = 0; i < cl.length; i++) {
+                cl[i].innerHTML = "Changed text";
+                cl[i].style.color = "red";
+                cl[i].style.backgroundColor = "blue";
+            }
+        }
+    </script>
+</head>
+
+<input>
+<p class="same">hii</p>
+<p class="same">hello</p>
+<p class="same">bye</p>
+<input type="button" onclick="cls();" value="CLICK" />
+</input>
+
+</html>

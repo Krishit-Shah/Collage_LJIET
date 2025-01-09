@@ -1,0 +1,20 @@
+<!-- Write a js to find that given no. is lucky or not given no. is lucky if sum of all its digit is equal to 1.
+ 7777 = 28 = 10 = 1 -->
+
+<html>
+    <head>
+        <script>
+            var n = 7777
+            var sum = 0;
+            while(n > 0){
+                sum += n % 10;
+                n = Math.floor(n/10);
+            }
+            if(sum == 1){
+                document.write("The number is lucky");
+            } else {
+                document.write("The number is not lucky");
+            }
+        </script>        
+    </head>
+</html>
