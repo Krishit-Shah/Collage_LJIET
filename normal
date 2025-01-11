@@ -3,17 +3,16 @@
     <p id="text">hello world</p>
     <button onclick="toUpper()">Upper</button>
     <button onclick="toLower()">Lower</button>
-    <p id="output"></p>
 
     <script>
       function toUpper() {
         var text = document.getElementById("text").innerHTML;
-        document.getElementById("output").innerHTML = text.toUpperCase();
+        document.getElementById("text").innerHTML = text.toUpperCase();
       }
 
       function toLower() {
         var text = document.getElementById("text").innerHTML;
-        document.getElementById("output").innerHTML = text.toLowerCase();
+        document.getElementById("text").innerHTML = text.toLowerCase();
       }
     </script>
   </body>
